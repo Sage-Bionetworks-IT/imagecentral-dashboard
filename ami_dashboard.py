@@ -1,0 +1,88 @@
+"""Create AMI dashboard by uses gh-pages.
+
+Configuration:
+
+Make sure you can assume the packer service role by configuring
+~/.aws/config and ~/.aws/credentials.  Set up conda env:
+```
+conda create -n aws python=3.7
+conda activate aws
+pip install aws
+pip install awsmfa
+```
+
+Usage:
+```
+awsmfa -i imagecentral -t imagecentral.admin -c ...
+git clone -b gh-pages https://github.com/thomasyu888/imagecentral-infra.git
+cd imagecentral-infra
+python scripts/ami_dashboard.py
+git diff
+git commit -am "Update"
+git push
+```
+
+"""
+from typing import List
+
+import boto3
+
+
+def get_aws_client(service: str, profile: str) -> boto3.client:
+    """Get AWS client
+
+    Args:
+        service: AWS service
+        profile: AWS profile to use in ~/.aws/config
+
+    Returns:
+        boto3.client
+
+    """
+    session = boto3.session.Session(profile_name=profile)
+    # Change region appropriate
+    ec2_client = session.client(service, region_name='us-east-1')
+    return ec2_client
+
+
+def form_markdown_text(ami_dict: dict) -> List[str]:
+    """Forms readme text to push to github
+    
+    Args:
+        images: Dictionary of images
+    
+    Returns:
+        markdown text with AMI table
+
+    """
+    text = []
+    text.append("# AMI Dashboard")
+    text.append("Here are a list of AMIs")
+    text.append("")
+    text.append("AMI Name | AMI Id")
+    text.append("-------- | ------")
+    # Sort values of AMI name to AMI Id
+    for key, value in sorted(ami_dict.items(), reverse=True):
+        text.append(f"{key} | `{value}`")
+
+    return "\n".join(text)
+
+
+def main():
+    """List available AMI's, form markdown table text with AMIs,
+    push to github"""
+    
+    ec2_client = get_aws_client("ec2", "image")
+    # Get AMI images
+    images = ec2_client.describe_images(Owners=['self'])
+
+    ami_dict = {image['Name']: image['ImageId']
+                for image in images['Images']}
+
+    markdown_text = form_markdown_text(ami_dict)
+    with open("README.md", "w") as readme_f:
+        readme_f.write(markdown_text)
+
+
+if __name__ == "__main__":
+    main()
