@@ -1,5 +1,6 @@
 # AMI Dashboard
-Here are a list of AMIs
+Here are a list of AMIs that can be used by Sage Bionetworks for provisioning. This dashboard is updated on a daily basis.
+
 
 AMI Name | AMI Id
 -------- | ------
