@@ -1,5 +1,5 @@
 # AMI Dashboard
-Here are a list of AMIs
+Here are a list of AMIs to use
 
 AMI Name | AMI Id
 -------- | ------
