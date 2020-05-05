@@ -48,7 +48,8 @@ def get_aws_client(service: str, access_key: str,
     sts_client = boto3.client(
         'sts',
         aws_access_key_id=access_key,
-        aws_secret_access_key=secret_access_key
+        aws_secret_access_key=secret_access_key,
+        region_name='us-east-1'
     )
     assume_role_object = sts_client.assume_role(RoleArn=role_arn,
                                                 RoleSessionName="packer",
@@ -58,7 +59,8 @@ def get_aws_client(service: str, access_key: str,
         service,
         aws_access_key_id=credentials['AccessKeyId'],
         aws_secret_access_key=credentials['SecretAccessKey'],
-        aws_session_token=credentials['SessionToken']
+        aws_session_token=credentials['SessionToken'],
+        region_name='us-east-1'
     )
     return client
 
