@@ -1,0 +1,32 @@
+name: "Create dashboard"
+on: 
+  push:
+    branches:
+      - master
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.7
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install boto3
+
+      - name: Run AMI dashboard
+        run: |
+          python ami_dashboard.py ${{ secrets.aws_access_key_id }} ${{ secrets.aws_secret_access_key }} ${{ secrets.packer_service_arn }}
+
+      - name: Commit report
+        run: |
+          git config --global user.name 'Image Central'
+          git config --global user.email 'thomasyu888@users.noreply.github.com'
+          git commit -am "Auto dashboard"
+          git push
