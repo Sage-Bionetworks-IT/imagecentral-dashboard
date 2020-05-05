@@ -77,7 +77,11 @@ def form_markdown_text(ami_dict: dict) -> List[str]:
     """
     text = []
     text.append("# AMI Dashboard")
-    text.append("Here are a list of AMIs")
+    text.append("Here are a list of AMIs that can be used by Sage "
+                "Bionetworks for provisioning. This dashboard is "
+                "updated on a daily basis.")
+    text.append("")
+
     text.append("")
     text.append("AMI Name | AMI Id")
     text.append("-------- | ------")
