@@ -2,21 +2,19 @@
 
 Configuration:
 
-Make sure you can assume the packer service role by configuring
-~/.aws/config and ~/.aws/credentials.  Set up conda env:
+You will need access to the lastpass credentials shared as
+`packer keys for imagecentral`. Set up conda env:
 ```
 conda create -n aws python=3.7
 conda activate aws
-pip install aws
-pip install awsmfa
+pip install boto3
 ```
 
 Usage:
 ```
-awsmfa -i imagecentral -t imagecentral.admin -c ...
-git clone -b gh-pages https://github.com/thomasyu888/imagecentral-infra.git
-cd imagecentral-infra
-python scripts/ami_dashboard.py
+git clone https://github.com/thomasyu888/imagecentral-dashboard.git
+cd imagecentral-dashboard
+python ami_dashboard.py access_key_id secret_access_key role_arn
 git diff
 git commit -am "Update"
 git push
