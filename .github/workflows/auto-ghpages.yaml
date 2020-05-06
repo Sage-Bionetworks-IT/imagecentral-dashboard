@@ -28,5 +28,7 @@ jobs:
         run: |
           git config --global user.name 'Image Central'
           git config --global user.email 'thomasyu888@users.noreply.github.com'
-          git commit -am "Auto dashboard"
+          git commit -am "Auto dashboard" || true
+          # The above command will fail if no changes were present, so we ignore
+          # that.
           git push
