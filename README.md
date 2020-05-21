@@ -16,12 +16,14 @@ packer-workflows-v1.0.1 | `ami-019e39721f2e229b0`
 packer-workflows-v1.0.0 | `ami-0144434f91f561456`
 packer-workflows-master | `ami-009bf49df0984b6ed`
 packer-ubuntu-bionic-master | `ami-0e62409dac0ea5e55`
+packer-rstudio-v1.0.5 | `ami-022e9a10f00f8ab9a`
 packer-rstudio-v1.0.4 | `ami-0041ea40b4237353c`
 packer-rstudio-v1.0.3 | `ami-01866cea595e4f968`
 packer-rstudio-v1.0.2 | `ami-01db72ecb09a90a60`
 packer-rstudio-v1.0.1 | `ami-0571ea73672b03ce7`
 packer-rstudio-v1.0.0 | `ami-036688a77595e31cf`
-packer-rstudio-master | `ami-0a4b8667ddad7cc3c`
+packer-rstudio-master | `ami-077d081e3f9e75bcf`
+packer-base-ubuntu-bionic-v1.0.8 | `ami-09ddd854571a732be`
 packer-base-ubuntu-bionic-v1.0.7 | `ami-0447d7789ebc37ae3`
 packer-base-ubuntu-bionic-v1.0.6 | `ami-093ca9e768e56b1bc`
 packer-base-ubuntu-bionic-v1.0.5 | `ami-08030043dfd4f797a`
@@ -29,7 +31,7 @@ packer-base-ubuntu-bionic-v1.0.4 | `ami-0fe60e01dbcdcda49`
 packer-base-ubuntu-bionic-v1.0.2 | `ami-0d383722ce22a6ea1`
 packer-base-ubuntu-bionic-v1.0.1 | `ami-0c04e7f09a1fbcec0`
 packer-base-ubuntu-bionic-v1.0.0 | `ami-05cce55c6aa92f55b`
-packer-base-ubuntu-bionic-master | `ami-0e120904061b87fde`
+packer-base-ubuntu-bionic-master | `ami-085c1ad7acc627a4d`
 packer-base-amazonlinux2-v1.0.2 | `ami-0810a318c4b1243c5`
 packer-base-amazonlinux2-v1.0.1 | `ami-06c6e00f3d3eaf56c`
 packer-base-amazonlinux2-v1.0.0 | `ami-00a8e72bc0c50ba7c`
