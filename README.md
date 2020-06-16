@@ -26,6 +26,7 @@ packer-rstudio-v1.0.2 | `ami-01db72ecb09a90a60`
 packer-rstudio-v1.0.1 | `ami-0571ea73672b03ce7`
 packer-rstudio-v1.0.0 | `ami-036688a77595e31cf`
 packer-rstudio-tthyer-test | `ami-0d141fb7bcee93d23`
+packer-rstudio-tthyer | `ami-09b544a2635b2fa78`
 packer-rstudio-master | `ami-053ddc6b0d0496aae`
 packer-base-ubuntu-bionic-v1.0.8 | `ami-09ddd854571a732be`
 packer-base-ubuntu-bionic-v1.0.7 | `ami-0447d7789ebc37ae3`
@@ -35,7 +36,7 @@ packer-base-ubuntu-bionic-v1.0.4 | `ami-0fe60e01dbcdcda49`
 packer-base-ubuntu-bionic-v1.0.2 | `ami-0d383722ce22a6ea1`
 packer-base-ubuntu-bionic-v1.0.1 | `ami-0c04e7f09a1fbcec0`
 packer-base-ubuntu-bionic-v1.0.0 | `ami-05cce55c6aa92f55b`
-packer-base-ubuntu-bionic-rebuild-tthyer-2 | `ami-07bbec0cecfb100a8`
+packer-base-ubuntu-bionic-rebuild-tthyer-2 | `ami-0b3cd3dbc1c827a0d`
 packer-base-ubuntu-bionic-rebuild-tthyer | `ami-04771cbcece93de14`
 packer-base-ubuntu-bionic-master | `ami-007bbd62983eaeebb`
 packer-base-amazonlinux2-v1.0.2 | `ami-0810a318c4b1243c5`
