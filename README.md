@@ -6,6 +6,7 @@ AMI Name | AMI Id
 -------- | ------
 weechat-v1.0.0 | `ami-0c437dfa321f0611e`
 weechat-LATEST | `ami-09a6de893ca3fef75`
+test-alb-notebook | `ami-0a5ffdc1ae24cb6d1`
 sagebio-base-ubuntu-bionic-v1.0.1 | `ami-0944334364827dc2d`
 sagebio-base-ubuntu-bionic-v1.0.0 | `ami-0d576d466a205f6db`
 sagebio-base-ubuntu-bionic-LATEST | `ami-0b8050b43cdfde2fc`
