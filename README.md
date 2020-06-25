@@ -19,7 +19,7 @@ packer-workflows-v1.0.1 | `ami-019e39721f2e229b0`
 packer-workflows-v1.0.0 | `ami-0144434f91f561456`
 packer-workflows-master | `ami-07b8d56a4fab55a53`
 packer-ubuntu-bionic-master | `ami-0e62409dac0ea5e55`
-packer-shinyserver-pro-master | `ami-0165a1552a862091f`
+packer-shinyserver-pro-master | `ami-05ee2f6c6d9a71c2e`
 packer-rstudio-v1.0.7 | `ami-0ed2999f7cff2e3e3`
 packer-rstudio-v1.0.6 | `ami-0d0ad473db2efe954`
 packer-rstudio-v1.0.5 | `ami-0398809a941f2fa22`
