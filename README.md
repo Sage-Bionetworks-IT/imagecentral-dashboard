@@ -13,6 +13,7 @@ sagebio-base-ubuntu-bionic-v1.0.1 | `ami-0944334364827dc2d`
 sagebio-base-ubuntu-bionic-v1.0.0 | `ami-0d576d466a205f6db`
 sagebio-base-ubuntu-bionic-LATEST | `ami-0b8050b43cdfde2fc`
 sagebio-base-aws-linux2-LATEST | `ami-0661708adf687a316`
+rstudio-notebook-with-route | `ami-0eaa93068e1048e45`
 rStudioAmi-LATEST | `ami-0af1602a4b2831345`
 packer-workflows-v1.0.5 | `ami-0aa07b115676a7bb0`
 packer-workflows-v1.0.4 | `ami-04e9c4e5c4e40ec12`
