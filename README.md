@@ -33,7 +33,7 @@ packer-rstudio-v1.0.3 | `ami-01866cea595e4f968`
 packer-rstudio-v1.0.2 | `ami-01db72ecb09a90a60`
 packer-rstudio-v1.0.1 | `ami-0571ea73672b03ce7`
 packer-rstudio-v1.0.0 | `ami-036688a77595e31cf`
-packer-rstudio-master | `ami-0fefb2588f4793cab`
+packer-rstudio-master | `ami-00bb2d341e2cb4d6a`
 packer-base-ubuntu-bionic-v1.0.9 | `ami-0b7906ab614596e7e`
 packer-base-ubuntu-bionic-v1.0.8 | `ami-09ddd854571a732be`
 packer-base-ubuntu-bionic-v1.0.7 | `ami-0447d7789ebc37ae3`
