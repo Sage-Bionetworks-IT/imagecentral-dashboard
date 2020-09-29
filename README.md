@@ -35,7 +35,8 @@ packer-rstudio-v1.0.2 | `ami-01db72ecb09a90a60`
 packer-rstudio-v1.0.1 | `ami-0571ea73672b03ce7`
 packer-rstudio-v1.0.0 | `ami-036688a77595e31cf`
 packer-rstudio-master | `ami-00bb2d341e2cb4d6a`
-packer-base-winserver2019-master | `ami-09f458c3346521b0a`
+packer-base-winserver2019-v0.0.1 | `ami-0dbdf36ae5f30d8d1`
+packer-base-winserver2019-master | `ami-0760ee05b40cc566e`
 packer-base-ubuntu-bionic-v1.0.9 | `ami-0b7906ab614596e7e`
 packer-base-ubuntu-bionic-v1.0.8 | `ami-09ddd854571a732be`
 packer-base-ubuntu-bionic-v1.0.7 | `ami-0447d7789ebc37ae3`
@@ -51,6 +52,5 @@ packer-base-amazonlinux2-v1.0.1 | `ami-06c6e00f3d3eaf56c`
 packer-base-amazonlinux2-v1.0.0 | `ami-00a8e72bc0c50ba7c`
 packer-base-amazonlinux2-master | `ami-068f36bea5edfd784`
 packer-ami-template-master | `ami-0d1164da3787a146a`
-kdtestimg1 | `ami-085ad2978eea00cab`
 Windows_Server-2019-English-Full-Base-2019_12_16 2020-01-15T04-57-41.977Z | `ami-074545a6fb2313e2c`
 Amazon-Linux-2-AMI-2020_01_08-x86_64-HVM-gp2 2020-01-15T06-08-48.730Z | `ami-0ca7208f904dc1874`
