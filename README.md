@@ -22,6 +22,7 @@ packer-workflows-v1.0.2 | `ami-0e42922cf0e599fbc`
 packer-workflows-v1.0.1 | `ami-019e39721f2e229b0`
 packer-workflows-v1.0.0 | `ami-0144434f91f561456`
 packer-workflows-master | `ami-07b8d56a4fab55a53`
+packer-workflows-DEV | `ami-033de8bb079bc9d59`
 packer-ubuntu-bionic-master | `ami-0e62409dac0ea5e55`
 packer-shinyserver-pro-v1.0.0 | `ami-0cfb65d62cde639ea`
 packer-shinyserver-pro-master | `ami-0491993ca183b00aa`
@@ -52,5 +53,6 @@ packer-base-amazonlinux2-v1.0.1 | `ami-06c6e00f3d3eaf56c`
 packer-base-amazonlinux2-v1.0.0 | `ami-00a8e72bc0c50ba7c`
 packer-base-amazonlinux2-master | `ami-068f36bea5edfd784`
 packer-ami-template-master | `ami-0d1164da3787a146a`
+packer-ami-template | `ami-0cdae3c3f81d5b38f`
 Windows_Server-2019-English-Full-Base-2019_12_16 2020-01-15T04-57-41.977Z | `ami-074545a6fb2313e2c`
 Amazon-Linux-2-AMI-2020_01_08-x86_64-HVM-gp2 2020-01-15T06-08-48.730Z | `ami-0ca7208f904dc1874`
