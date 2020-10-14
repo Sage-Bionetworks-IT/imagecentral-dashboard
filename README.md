@@ -15,13 +15,14 @@ sagebio-base-ubuntu-bionic-LATEST | `ami-0b8050b43cdfde2fc`
 sagebio-base-aws-linux2-LATEST | `ami-0661708adf687a316`
 rstudio-notebook-with-route | `ami-0eaa93068e1048e45`
 rStudioAmi-LATEST | `ami-0af1602a4b2831345`
+packer-workflows-v1.0.6 | `ami-02fb1df88e77ef400`
 packer-workflows-v1.0.5 | `ami-0aa07b115676a7bb0`
 packer-workflows-v1.0.4 | `ami-04e9c4e5c4e40ec12`
 packer-workflows-v1.0.3 | `ami-039fd44e98891c664`
 packer-workflows-v1.0.2 | `ami-0e42922cf0e599fbc`
 packer-workflows-v1.0.1 | `ami-019e39721f2e229b0`
 packer-workflows-v1.0.0 | `ami-0144434f91f561456`
-packer-workflows-master | `ami-07b8d56a4fab55a53`
+packer-workflows-master | `ami-074f86a191af990bc`
 packer-workflows-DEV | `ami-033de8bb079bc9d59`
 packer-ubuntu-bionic-master | `ami-0e62409dac0ea5e55`
 packer-shinyserver-pro-v1.0.0 | `ami-0cfb65d62cde639ea`
