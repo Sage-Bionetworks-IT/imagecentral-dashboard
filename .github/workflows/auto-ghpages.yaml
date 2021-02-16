@@ -1,5 +1,7 @@
 name: "Create dashboard"
 on:
+  push:
+    branch: master
   schedule:
   - cron: "0 */4 * * *"
 
