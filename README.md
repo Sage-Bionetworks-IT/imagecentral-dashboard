@@ -22,7 +22,7 @@ packer-workflows-v1.0.3 | `ami-039fd44e98891c664`
 packer-workflows-v1.0.2 | `ami-0e42922cf0e599fbc`
 packer-workflows-v1.0.1 | `ami-019e39721f2e229b0`
 packer-workflows-v1.0.0 | `ami-0144434f91f561456`
-packer-workflows-master | `ami-074f86a191af990bc`
+packer-workflows-master | `ami-0a795908915fa35a5`
 packer-workflows-DEV | `ami-033de8bb079bc9d59`
 packer-ubuntu-bionic-master | `ami-0e62409dac0ea5e55`
 packer-shinyserver-pro-v1.0.0 | `ami-0cfb65d62cde639ea`
@@ -36,7 +36,7 @@ packer-rstudio-v1.0.3 | `ami-01866cea595e4f968`
 packer-rstudio-v1.0.2 | `ami-01db72ecb09a90a60`
 packer-rstudio-v1.0.1 | `ami-0571ea73672b03ce7`
 packer-rstudio-v1.0.0 | `ami-036688a77595e31cf`
-packer-rstudio-master | `ami-00bb2d341e2cb4d6a`
+packer-rstudio-master | `ami-04971bf3261a63ef1`
 packer-base-winserver2019-v0.0.1 | `ami-0dbdf36ae5f30d8d1`
 packer-base-winserver2019-master | `ami-05ee8a9d72441bbd1`
 packer-base-ubuntu-bionic-v1.0.9 | `ami-0b7906ab614596e7e`
@@ -48,12 +48,12 @@ packer-base-ubuntu-bionic-v1.0.4 | `ami-0fe60e01dbcdcda49`
 packer-base-ubuntu-bionic-v1.0.2 | `ami-0d383722ce22a6ea1`
 packer-base-ubuntu-bionic-v1.0.1 | `ami-0c04e7f09a1fbcec0`
 packer-base-ubuntu-bionic-v1.0.0 | `ami-05cce55c6aa92f55b`
-packer-base-ubuntu-bionic-master | `ami-061e226f2a9a09f76`
+packer-base-ubuntu-bionic-master | `ami-020ab2be3a40b0534`
 packer-base-amazonlinux2-v1.0.2 | `ami-0810a318c4b1243c5`
 packer-base-amazonlinux2-v1.0.1 | `ami-06c6e00f3d3eaf56c`
 packer-base-amazonlinux2-v1.0.0 | `ami-00a8e72bc0c50ba7c`
 packer-base-amazonlinux2-master | `ami-068f36bea5edfd784`
-packer-ami-template-master | `ami-0d1164da3787a146a`
+packer-ami-template-master | `ami-017cc5dc55ef5c2f6`
 packer-ami-template | `ami-0cdae3c3f81d5b38f`
 Windows_Server-2019-English-Full-Base-2019_12_16 2020-01-15T04-57-41.977Z | `ami-074545a6fb2313e2c`
 Amazon-Linux-2-AMI-2020_01_08-x86_64-HVM-gp2 2020-01-15T06-08-48.730Z | `ami-0ca7208f904dc1874`
