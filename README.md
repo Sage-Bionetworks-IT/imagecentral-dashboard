@@ -27,6 +27,7 @@ packer-workflows-DEV | `ami-033de8bb079bc9d59`
 packer-ubuntu-bionic-master | `ami-0e62409dac0ea5e55`
 packer-shinyserver-pro-v1.0.0 | `ami-0cfb65d62cde639ea`
 packer-shinyserver-pro-master | `ami-0491993ca183b00aa`
+packer-rstudio-zdong-test-2-1-final-1-realfinal-2 | `ami-0765a2c468c4ca1f7`
 packer-rstudio-zdong-test-2 | `ami-0ef6c9a3361740807`
 packer-rstudio-v2.0.0 | `ami-051310d409a32a5aa`
 packer-rstudio-v1.0.7 | `ami-0ed2999f7cff2e3e3`
