@@ -38,6 +38,7 @@ packer-rstudio-v1.0.3 | `ami-01866cea595e4f968`
 packer-rstudio-v1.0.2 | `ami-01db72ecb09a90a60`
 packer-rstudio-v1.0.1 | `ami-0571ea73672b03ce7`
 packer-rstudio-v1.0.0 | `ami-036688a77595e31cf`
+packer-rstudio-testerino | `ami-0329177f09840b4b1`
 packer-rstudio-master | `ami-04971bf3261a63ef1`
 packer-base-winserver2019-v0.0.1 | `ami-0dbdf36ae5f30d8d1`
 packer-base-winserver2019-master | `ami-05ee8a9d72441bbd1`
