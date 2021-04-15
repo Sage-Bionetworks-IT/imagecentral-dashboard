@@ -27,8 +27,7 @@ packer-workflows-DEV | `ami-033de8bb079bc9d59`
 packer-ubuntu-bionic-master | `ami-0e62409dac0ea5e55`
 packer-shinyserver-pro-v1.0.0 | `ami-0cfb65d62cde639ea`
 packer-shinyserver-pro-master | `ami-0491993ca183b00aa`
-packer-rstudio-zdong-test-2-1-final-1-realfinal-2 | `ami-0765a2c468c4ca1f7`
-packer-rstudio-zdong-test-2 | `ami-0ef6c9a3361740807`
+packer-rstudio-v2.1.0-staging | `ami-0d1b0ff6d129fb72b`
 packer-rstudio-v2.0.0 | `ami-051310d409a32a5aa`
 packer-rstudio-v1.0.7 | `ami-0ed2999f7cff2e3e3`
 packer-rstudio-v1.0.6 | `ami-0d0ad473db2efe954`
@@ -38,7 +37,6 @@ packer-rstudio-v1.0.3 | `ami-01866cea595e4f968`
 packer-rstudio-v1.0.2 | `ami-01db72ecb09a90a60`
 packer-rstudio-v1.0.1 | `ami-0571ea73672b03ce7`
 packer-rstudio-v1.0.0 | `ami-036688a77595e31cf`
-packer-rstudio-testerino | `ami-0329177f09840b4b1`
 packer-rstudio-master | `ami-0bf676ff1d1bc7078`
 packer-base-winserver2019-v0.0.1 | `ami-0dbdf36ae5f30d8d1`
 packer-base-winserver2019-master | `ami-05ee8a9d72441bbd1`
