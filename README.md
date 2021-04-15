@@ -28,8 +28,7 @@ packer-ubuntu-bionic-master | `ami-0e62409dac0ea5e55`
 packer-shinyserver-pro-v1.0.0 | `ami-0cfb65d62cde639ea`
 packer-shinyserver-pro-master | `ami-0491993ca183b00aa`
 packer-rstudio-zdong-testerino-again | `ami-0d978a8b466741277`
-packer-rstudio-v2.1.0-staging2 | `ami-0ca980f66e70508ee`
-packer-rstudio-v2.1.0-staging | `ami-0d1b0ff6d129fb72b`
+packer-rstudio-zdong-staging999 | `ami-0507ea4804f710f61`
 packer-rstudio-v2.0.0 | `ami-051310d409a32a5aa`
 packer-rstudio-v1.0.7 | `ami-0ed2999f7cff2e3e3`
 packer-rstudio-v1.0.6 | `ami-0d0ad473db2efe954`
