@@ -24,6 +24,7 @@ packer-workflows-v1.0.1 | `ami-019e39721f2e229b0`
 packer-workflows-v1.0.0 | `ami-0144434f91f561456`
 packer-workflows-master | `ami-0a795908915fa35a5`
 packer-workflows-DEV | `ami-033de8bb079bc9d59`
+packer-ubuntu-docker-DEV | `ami-00e7599be2ef4cb67`
 packer-ubuntu-bionic-master | `ami-0e62409dac0ea5e55`
 packer-shinyserver-pro-v1.0.0 | `ami-0cfb65d62cde639ea`
 packer-shinyserver-pro-master | `ami-0491993ca183b00aa`
