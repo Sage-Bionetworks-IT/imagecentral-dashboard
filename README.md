@@ -60,6 +60,7 @@ packer-base-amazonlinux2-v1.0.0 | `ami-00a8e72bc0c50ba7c`
 packer-base-amazonlinux2-master | `ami-068f36bea5edfd784`
 packer-ami-template-master | `ami-017cc5dc55ef5c2f6`
 packer-ami-template | `ami-0cdae3c3f81d5b38f`
-kd-awslinux-docker1 | `ami-00976e4febdaf36c0`
+packer-amazonlinux-docker-v1.0.0 | `ami-0559a96a9284c1223`
+packer-amazonlinux-docker-master | `ami-0a03932cc98b9a938`
 Windows_Server-2019-English-Full-Base-2019_12_16 2020-01-15T04-57-41.977Z | `ami-074545a6fb2313e2c`
 Amazon-Linux-2-AMI-2020_01_08-x86_64-HVM-gp2 2020-01-15T06-08-48.730Z | `ami-0ca7208f904dc1874`
