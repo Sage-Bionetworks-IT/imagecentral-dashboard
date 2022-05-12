@@ -64,5 +64,6 @@ packer-ami-template-master | `ami-0233ac5e7893a354e`
 packer-ami-template | `ami-0cdae3c3f81d5b38f`
 packer-amazonlinux-docker-v1.0.0 | `ami-0559a96a9284c1223`
 packer-amazonlinux-docker-master | `ami-090d284f6f1213de1`
+org-sagebase-agora-bastion | `ami-05b72d008a5718961`
 Windows_Server-2019-English-Full-Base-2019_12_16 2020-01-15T04-57-41.977Z | `ami-074545a6fb2313e2c`
 Amazon-Linux-2-AMI-2020_01_08-x86_64-HVM-gp2 2020-01-15T06-08-48.730Z | `ami-0ca7208f904dc1874`
