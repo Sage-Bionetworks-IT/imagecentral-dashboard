@@ -53,9 +53,10 @@ packer-base-ubuntu-bionic-v1.0.6 | `ami-093ca9e768e56b1bc`
 packer-base-ubuntu-bionic-v1.0.5 | `ami-08030043dfd4f797a`
 packer-base-ubuntu-bionic-v1.0.4 | `ami-0fe60e01dbcdcda49`
 packer-base-ubuntu-bionic-v1.0.2 | `ami-0d383722ce22a6ea1`
+packer-base-ubuntu-bionic-v1.0.10 | `ami-0a3c3e0cb6ae0cc6c`
 packer-base-ubuntu-bionic-v1.0.1 | `ami-0c04e7f09a1fbcec0`
 packer-base-ubuntu-bionic-v1.0.0 | `ami-05cce55c6aa92f55b`
-packer-base-ubuntu-bionic-master | `ami-03962915d9524e5d5`
+packer-base-ubuntu-bionic-master | `ami-0e7392f5b190d6eef`
 packer-base-amazonlinux2-v1.0.2 | `ami-0810a318c4b1243c5`
 packer-base-amazonlinux2-v1.0.1 | `ami-06c6e00f3d3eaf56c`
 packer-base-amazonlinux2-v1.0.0 | `ami-00a8e72bc0c50ba7c`
