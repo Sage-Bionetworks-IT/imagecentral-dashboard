@@ -63,6 +63,7 @@ packer-base-amazonlinux2-v1.0.0 | `ami-00a8e72bc0c50ba7c`
 packer-base-amazonlinux2-master | `ami-0c2af4140ea262638`
 packer-ami-template-master | `ami-0233ac5e7893a354e`
 packer-ami-template | `ami-0cdae3c3f81d5b38f`
+packer-amazonlinux-docker-v1.0.1 | `ami-01ceb2232292bf0d0`
 packer-amazonlinux-docker-v1.0.0 | `ami-0559a96a9284c1223`
 packer-amazonlinux-docker-master | `ami-090d284f6f1213de1`
 org-sagebase-agora-bastion | `ami-05b72d008a5718961`
