@@ -32,3 +32,6 @@ jobs:
           # The above command will fail if no changes were present, so we ignore
           # that.
           git push
+
+      # prevent GH action from disabling scheduled builds
+      - uses: gautamkrishnar/keepalive-workflow@master
