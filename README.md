@@ -67,7 +67,7 @@ packer-amazonlinux-docker-v1.0.1 | `ami-01ceb2232292bf0d0`
 packer-amazonlinux-docker-v1.0.0 | `ami-0559a96a9284c1223`
 packer-amazonlinux-docker-master | `ami-090d284f6f1213de1`
 org-sagebase-agora-bastion | `ami-05b72d008a5718961`
-kdtest-rstudio | `ami-03ce940908e2a4ec3`
+kdtest-rstudio | `ami-0c1bce56eda3b9bb1`
 kdtest-base-jammy | `ami-0e911833ea63f5692`
 kdtest | `ami-01250baff1a44d49d`
 Windows_Server-2019-English-Full-Base-2019_12_16 2020-01-15T04-57-41.977Z | `ami-074545a6fb2313e2c`
