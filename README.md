@@ -46,6 +46,7 @@ packer-rstudio-v1.0.0 | `ami-036688a77595e31cf`
 packer-rstudio-master | `ami-0d09eadc9d7c65ff2`
 packer-base-winserver2019-v0.0.1 | `ami-0dbdf36ae5f30d8d1`
 packer-base-winserver2019-master | `ami-07c6a09b7ba342265`
+packer-base-ubuntu-jammy-master | `ami-0c2a4da0850a4c9a5`
 packer-base-ubuntu-bionic-v1.0.9 | `ami-0b7906ab614596e7e`
 packer-base-ubuntu-bionic-v1.0.8 | `ami-09ddd854571a732be`
 packer-base-ubuntu-bionic-v1.0.7 | `ami-0447d7789ebc37ae3`
