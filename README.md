@@ -28,6 +28,7 @@ packer-ubuntu-docker-DEV | `ami-00e7599be2ef4cb67`
 packer-ubuntu-bionic-master | `ami-0e62409dac0ea5e55`
 packer-shinyserver-pro-v1.0.0 | `ami-0cfb65d62cde639ea`
 packer-shinyserver-pro-master | `ami-09bf84c8f4df6f509`
+packer-rstudio-v3.0.0 | `ami-0fcbd5266337cacab`
 packer-rstudio-v2.1.6 | `ami-0d95d262d92cd5b77`
 packer-rstudio-v2.1.5 | `ami-060506aa2a0847956`
 packer-rstudio-v2.1.3 | `ami-0588ce2d8084e56be`
