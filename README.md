@@ -68,7 +68,7 @@ packer-base-ubuntu-bionic-master | `ami-0e7392f5b190d6eef`
 packer-base-amazonlinux2-v1.0.2 | `ami-0810a318c4b1243c5`
 packer-base-amazonlinux2-v1.0.1 | `ami-06c6e00f3d3eaf56c`
 packer-base-amazonlinux2-v1.0.0 | `ami-00a8e72bc0c50ba7c`
-packer-base-amazonlinux2-master | `ami-0c2af4140ea262638`
+packer-base-amazonlinux2-master | `ami-0ff34a733d670d570`
 packer-ami-template-master | `ami-0081053220718a5fd`
 packer-ami-template | `ami-0cdae3c3f81d5b38f`
 packer-amazonlinux-docker-v1.0.1 | `ami-01ceb2232292bf0d0`
