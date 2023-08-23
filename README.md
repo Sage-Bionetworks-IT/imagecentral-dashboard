@@ -36,6 +36,7 @@ packer-rstudio-v3.0.1 | `ami-08cd5d5244f82a25c`
 packer-rstudio-v3.0.0 | `ami-0fcbd5266337cacab`
 packer-rstudio-v2.1.6 | `ami-0d95d262d92cd5b77`
 packer-rstudio-v2.1.5 | `ami-060506aa2a0847956`
+packer-rstudio-v2.1.3-copy | `ami-0ea087058bb641a84`
 packer-rstudio-v2.1.3 | `ami-0236faf14d520852a`
 packer-rstudio-v2.1.2 | `ami-0fa2167c265c7ceae`
 packer-rstudio-v2.1.1 | `ami-0c0f49c0711209967`
