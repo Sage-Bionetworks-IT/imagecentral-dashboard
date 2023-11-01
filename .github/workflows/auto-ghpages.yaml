@@ -20,9 +20,17 @@ jobs:
           python -m pip install --upgrade pip
           pip install boto3
 
+      - name: Assume AWS Role
+        uses: aws-actions/configure-aws-credentials@v2
+        with:
+          aws-region: us-east-1
+          role-to-assume: arn:aws:iam::867686887310:role/sagebase-github-oidc-packer-image-deploy
+          role-session-name: GitHubActions-${{ github.repository_owner }}-${{ github.event.repository.name }}-${{ github.run_id }}
+          role-duration-seconds: 600
+
       - name: Run AMI dashboard
         run: |
-          python ami_dashboard.py ${{ secrets.aws_access_key_id }} ${{ secrets.aws_secret_access_key }} ${{ secrets.packer_service_arn }}
+          python ami_dashboard.py
 
       - name: Commit report
         run: |

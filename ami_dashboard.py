@@ -30,7 +30,7 @@ import boto3
 def get_aws_client(service: str, access_key: str,
                    secret_access_key: str,
                    role_arn: str) -> boto3.client:
-    """Get AWS client
+    """Assume a role and return an AWS client
 
     Args:
         service: AWS service to use
@@ -93,12 +93,12 @@ def form_markdown_text(ami_dict: dict) -> List[str]:
 def cli():
     """CLI"""
     parser = argparse.ArgumentParser(
-        description='Challenge utility functions'
+        description='AMI dashboard utility'
     )
-    parser.add_argument("access_key_id", help="AWS access key id", type=str)
-    parser.add_argument("secret_access_key", help="AWS secret access key",
+    parser.add_argument("access_key_id", nargs="+", help="AWS access key id", type=str)
+    parser.add_argument("secret_access_key", nargs="+", help="AWS secret access key",
                         type=str)
-    parser.add_argument("role_arn", help="AWS Role ARN", type=str)
+    parser.add_argument("role_arn", nargs="+", help="AWS Role ARN", type=str)
     parser.add_argument("--exclude_ami", nargs="+",
                         help="Exclude AMIs with these prefixes")
     args = parser.parse_args()
@@ -109,9 +109,12 @@ def main():
     """List available AMI's, form markdown table text with AMIs,
     push to github"""
     args = cli()
-    ec2_client = get_aws_client("ec2", args.access_key_id,
-                                args.secret_access_key,
-                                args.role_arn)
+    if args.access_key_id and args.secret_access_key and args.role_arn:
+        ec2_client = get_aws_client("ec2", args.access_key_id,
+                                    args.secret_access_key,
+                                    args.role_arn)
+    else:
+        ec2_client = client = boto3.client("ec2")
     # Get AMI images
     images = ec2_client.describe_images(Owners=['self'])
 
