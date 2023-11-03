@@ -28,8 +28,8 @@ jobs:
         with:
           aws-region: us-east-1
           role-to-assume: arn:aws:iam::867686887310:role/sagebase-github-oidc-packer-image-deploy
-          role-session-name: GitHubActions-${{ github.repository_owner }}-${{ github.event.repository.name }}-${{ github.run_id }}
-          role-duration-seconds: 600
+          role-session-name: GHA-${{ github.repository_owner }}-${{ github.event.repository.name }}-${{ github.run_id }}
+          role-duration-seconds: 900
 
       - name: Run AMI dashboard
         run: |
