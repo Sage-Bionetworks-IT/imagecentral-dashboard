@@ -95,10 +95,10 @@ def cli():
     parser = argparse.ArgumentParser(
         description='AMI dashboard utility'
     )
-    parser.add_argument("access_key_id", nargs="+", help="AWS access key id", type=str)
-    parser.add_argument("secret_access_key", nargs="+", help="AWS secret access key",
+    parser.add_argument("access_key_id", nargs="?", help="AWS access key id", type=str)
+    parser.add_argument("secret_access_key", nargs="?", help="AWS secret access key",
                         type=str)
-    parser.add_argument("role_arn", nargs="+", help="AWS Role ARN", type=str)
+    parser.add_argument("role_arn", nargs="?", help="AWS Role ARN", type=str)
     parser.add_argument("--exclude_ami", nargs="+",
                         help="Exclude AMIs with these prefixes")
     args = parser.parse_args()
