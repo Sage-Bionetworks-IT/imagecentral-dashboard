@@ -75,10 +75,11 @@ packer-base-amazonlinux2-v1.0.0 | `ami-00a8e72bc0c50ba7c`
 packer-base-amazonlinux2-master | `ami-0ff34a733d670d570`
 packer-ami-template-master | `ami-0081053220718a5fd`
 packer-ami-template | `ami-0cdae3c3f81d5b38f`
+packer-amazonlinux-docker-v2.0.1 | `ami-0b0c7a592286b1ad4`
 packer-amazonlinux-docker-v2.0.0 | `ami-0090a06306e93b1e1`
 packer-amazonlinux-docker-v1.0.1 | `ami-01ceb2232292bf0d0`
 packer-amazonlinux-docker-v1.0.0 | `ami-0559a96a9284c1223`
-packer-amazonlinux-docker-master | `ami-0f169cf523466648c`
+packer-amazonlinux-docker-master | `ami-00b72119235e94915`
 org-sagebase-agora-bastion | `ami-05b72d008a5718961`
 kdpackerrstudio | `ami-022d6114ffa79500a`
 kdbasejammy | `ami-04c661cd440be7b9e`
