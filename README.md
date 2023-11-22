@@ -79,10 +79,10 @@ packer-amazonlinux-docker-v2.0.1 | `ami-0b0c7a592286b1ad4`
 packer-amazonlinux-docker-v2.0.0 | `ami-0090a06306e93b1e1`
 packer-amazonlinux-docker-v1.0.1 | `ami-01ceb2232292bf0d0`
 packer-amazonlinux-docker-v1.0.0 | `ami-0559a96a9284c1223`
-packer-amazonlinux-docker-master | `ami-00b72119235e94915`
+packer-amazonlinux-docker-master | `ami-0bbdf90b2a07923e8`
 org-sagebase-agora-bastion | `ami-05b72d008a5718961`
 kdpackerrstudio | `ami-022d6114ffa79500a`
 kdbasejammy | `ami-04c661cd440be7b9e`
-joni-test | `ami-0a57bb020125ea432`
+joni-test | `ami-03a72ab5eb37947db`
 Windows_Server-2019-English-Full-Base-2019_12_16 2020-01-15T04-57-41.977Z | `ami-074545a6fb2313e2c`
 Amazon-Linux-2-AMI-2020_01_08-x86_64-HVM-gp2 2020-01-15T06-08-48.730Z | `ami-0ca7208f904dc1874`
