@@ -83,6 +83,7 @@ packer-amazonlinux-docker-master | `ami-0199f2d4739bba0b6`
 org-sagebase-agora-bastion | `ami-05b72d008a5718961`
 kdpackerrstudio | `ami-022d6114ffa79500a`
 kdbasejammy | `ami-04c661cd440be7b9e`
+joni-test-winserver2019 | `ami-064232b0d40328a82`
 joni-test-winserver | `ami-04b57d352e596eb36`
 joni-test | `ami-08d125b0a68043bef`
 Windows_Server-2019-English-Full-Base-2019_12_16 2020-01-15T04-57-41.977Z | `ami-074545a6fb2313e2c`
