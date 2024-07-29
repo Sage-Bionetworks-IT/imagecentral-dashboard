@@ -119,7 +119,8 @@ def main():
     images = ec2_client.describe_images(Owners=['self'])
 
     ami_dict = {image['Name']: image['ImageId']
-                for image in images['Images']}
+                for image in images['Images']
+                if 'test' not in image['Name']}  # only images without 'test' in the name
 
     markdown_text = form_markdown_text(ami_dict)
     with open("README.md", "w") as readme_f:
