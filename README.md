@@ -6,9 +6,6 @@ AMI Name | AMI Id
 -------- | ------
 weechat-v1.0.0 | `ami-0c437dfa321f0611e`
 weechat-LATEST | `ami-09a6de893ca3fef75`
-test-alb-rstudio-notebook-v2 | `ami-01024cf6596f29a87`
-test-alb-rstudio-notebook | `ami-0e3513f76f93fbba6`
-test-alb-notebook | `ami-0a5ffdc1ae24cb6d1`
 sagebio-base-ubuntu-bionic-v1.0.1 | `ami-0944334364827dc2d`
 sagebio-base-ubuntu-bionic-v1.0.0 | `ami-0d576d466a205f6db`
 sagebio-base-ubuntu-bionic-LATEST | `ami-0b8050b43cdfde2fc`
@@ -88,9 +85,5 @@ packer-amazonlinux-docker-master | `ami-0a4fb5429a6631353`
 org-sagebase-agora-bastion | `ami-05b72d008a5718961`
 kdpackerrstudio | `ami-022d6114ffa79500a`
 kdbasejammy | `ami-04c661cd440be7b9e`
-joni-test-winserver | `ami-04b57d352e596eb36`
-joni-test-ubuntu | `ami-0dcd6ac02ae6b53ea`
-joni-test-minimal | `ami-0aa65ef20f5e3d6d7`
-joni-test | `ami-0169aacb74b0274fd`
 Windows_Server-2019-English-Full-Base-2019_12_16 2020-01-15T04-57-41.977Z | `ami-074545a6fb2313e2c`
 Amazon-Linux-2-AMI-2020_01_08-x86_64-HVM-gp2 2020-01-15T06-08-48.730Z | `ami-0ca7208f904dc1874`
