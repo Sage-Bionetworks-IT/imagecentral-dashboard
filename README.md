@@ -22,7 +22,7 @@ packer-workflows-v1.0.0 | `ami-0144434f91f561456`
 packer-workflows-master | `ami-0dc5d26198ca64198`
 packer-workflows-DEV | `ami-033de8bb079bc9d59`
 packer-winserver-2022-v0.0.1 | `ami-08079232459aa7414`
-packer-winserver-2022-master | `ami-059ca3bb391e7e919`
+packer-winserver-2022-master | `ami-00003edc5dfed7fbf`
 packer-ubuntu-docker-DEV | `ami-00e7599be2ef4cb67`
 packer-ubuntu-bionic-master | `ami-0e62409dac0ea5e55`
 packer-shinyserver-pro-v1.0.0 | `ami-0cfb65d62cde639ea`
