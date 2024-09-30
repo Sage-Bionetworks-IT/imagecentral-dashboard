@@ -56,7 +56,7 @@ packer-base-winserver2019-v0.0.1 | `ami-0dbdf36ae5f30d8d1`
 packer-base-winserver2019-master | `ami-07c6a09b7ba342265`
 packer-base-ubuntu-jammy-v1.0.2 | `ami-04e92928ecf1c2066`
 packer-base-ubuntu-jammy-v1.0.0 | `ami-0b710e028cd5ff838`
-packer-base-ubuntu-jammy-master | `ami-0584807f17f50fa95`
+packer-base-ubuntu-jammy-master | `ami-05345b6c5c75037f3`
 packer-base-ubuntu-bionic-v1.0.9 | `ami-0b7906ab614596e7e`
 packer-base-ubuntu-bionic-v1.0.8 | `ami-09ddd854571a732be`
 packer-base-ubuntu-bionic-v1.0.7 | `ami-0447d7789ebc37ae3`
@@ -73,7 +73,7 @@ packer-base-amazonlinux2-v1.0.2 | `ami-0810a318c4b1243c5`
 packer-base-amazonlinux2-v1.0.1 | `ami-06c6e00f3d3eaf56c`
 packer-base-amazonlinux2-v1.0.0 | `ami-00a8e72bc0c50ba7c`
 packer-base-amazonlinux2-master | `ami-0ff34a733d670d570`
-packer-ami-template-master | `ami-0081053220718a5fd`
+packer-ami-template-master | `ami-089e0c6e28f8431cb`
 packer-ami-template | `ami-0cdae3c3f81d5b38f`
 packer-amazonlinux-docker-v2.0.3 | `ami-07260db8d2b10c0ad`
 packer-amazonlinux-docker-v2.0.2 | `ami-021590301011f74b3`
