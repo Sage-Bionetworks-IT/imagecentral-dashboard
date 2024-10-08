@@ -22,7 +22,7 @@ packer-workflows-v1.0.0 | `ami-0144434f91f561456`
 packer-workflows-master | `ami-0dc5d26198ca64198`
 packer-workflows-DEV | `ami-033de8bb079bc9d59`
 packer-winserver-2022-v0.0.1 | `ami-08079232459aa7414`
-packer-winserver-2022-master | `ami-00003edc5dfed7fbf`
+packer-winserver-2022-master | `ami-06455ed7f08325b73`
 packer-ubuntu-docker-DEV | `ami-00e7599be2ef4cb67`
 packer-ubuntu-bionic-master | `ami-0e62409dac0ea5e55`
 packer-shinyserver-pro-v1.0.0 | `ami-0cfb65d62cde639ea`
@@ -56,7 +56,7 @@ packer-base-winserver2019-v0.0.1 | `ami-0dbdf36ae5f30d8d1`
 packer-base-winserver2019-master | `ami-07c6a09b7ba342265`
 packer-base-ubuntu-jammy-v1.0.2 | `ami-04e92928ecf1c2066`
 packer-base-ubuntu-jammy-v1.0.0 | `ami-0b710e028cd5ff838`
-packer-base-ubuntu-jammy-master | `ami-05345b6c5c75037f3`
+packer-base-ubuntu-jammy-master | `ami-01a237d4ab0ceb500`
 packer-base-ubuntu-bionic-v1.0.9 | `ami-0b7906ab614596e7e`
 packer-base-ubuntu-bionic-v1.0.8 | `ami-09ddd854571a732be`
 packer-base-ubuntu-bionic-v1.0.7 | `ami-0447d7789ebc37ae3`
