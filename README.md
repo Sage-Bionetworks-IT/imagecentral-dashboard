@@ -73,7 +73,7 @@ packer-base-amazonlinux2-v1.0.2 | `ami-0810a318c4b1243c5`
 packer-base-amazonlinux2-v1.0.1 | `ami-06c6e00f3d3eaf56c`
 packer-base-amazonlinux2-v1.0.0 | `ami-00a8e72bc0c50ba7c`
 packer-base-amazonlinux2-master | `ami-0ff34a733d670d570`
-packer-ami-template-master | `ami-04955406a76504725`
+packer-ami-template-master | `ami-082fd81fe1246bce5`
 packer-ami-template | `ami-0cdae3c3f81d5b38f`
 packer-amazonlinux-docker-v2.0.3 | `ami-07260db8d2b10c0ad`
 packer-amazonlinux-docker-v2.0.2 | `ami-021590301011f74b3`
