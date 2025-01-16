@@ -1,3 +1,11 @@
+# Deprecation
+The listed images from here can still be used however we have decided to deprecate
+using packer in favor of the AWS image builder to generate AMIs.
+As of 1/16/2025 new AMIs will be created with the AWS image builder from
+[Sage-Bionetworks-IT/aws-ami-monorepo](https://github.com/Sage-Bionetworks-IT/aws-ami-monorepo) repo.
+The generated AMIs from that repo are searchable using the AWS EC2->Images->AMI console.
+
+
 # AMI Dashboard
 Here are a list of AMIs that can be used by Sage Bionetworks for provisioning. This dashboard is updated on a daily basis.
 
